@@ -5,7 +5,7 @@
   }
   
   body {
-    background-image: url('img/fondoR.jpg');
+    background: white;
   }
   
   .login {
@@ -26,6 +26,10 @@
     margin-bottom: 20px;
   }
   
+  .logo{  /*logo*/
+    width: 90px;
+    height: 90px;
+}
   .controls {
     width: 100%;
     background: #24303c;

@@ -5,7 +5,7 @@
   }
   
   body {
-    background-image: url('img/fondoR.jpg');
+    background: white;
 
   }
   
@@ -26,7 +26,7 @@
 
 }
 .btn::before{
-  background: #10a7a7;
+  background: #8ae6e6;
   content: "";
   position: absolute;
   top: 50%;
@@ -46,7 +46,7 @@
 }
   .form-register {
     width: 400px;
-    background: #24303c;
+    background: #98dede;
     padding: 30px;
     margin: auto;
     margin-top: 10px;
@@ -54,7 +54,13 @@
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
+    transform: translate(-70%,-120%);
   }
+  img{
+    transform: translate(90%,-10%);
+ 
+  }
+
   
   .form-register h4 {
     font-size: 22px;
@@ -63,14 +69,14 @@
   
   .controls {
     width: 100%;
-    background: #24303c;
+    background: white;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #1f53c5;
     font-family: 'calibri';
     font-size: 18px;
-    color: white;
+    color: black;
   }
   
   .form-register p {
